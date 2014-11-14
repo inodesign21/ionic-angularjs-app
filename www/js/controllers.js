@@ -20,8 +20,8 @@ angular.module('starter.controllers', [])
         var params = {
             method: 'album.getinfo',
             api_key: '08963bdec6bde5d6189e3d7dc86fa6ac',
-            album: 'Air',
-            artist: 'Air',
+            album: 'Lonerism',
+            artist: 'Tame Impala',
             format: 'json'
         };
         $http.get(url, { params: params })
